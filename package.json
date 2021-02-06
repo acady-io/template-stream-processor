@@ -1,7 +1,7 @@
 {
-  "name": "template-tasks-processor",
+  "name": "template-stream-processor",
   "version": "1.0.0",
-  "description": "Template for Tasks Processors",
+  "description": "Template for Stream Processors",
   "main": "./build/index.js",
   "files": [
     "build"
@@ -19,7 +19,7 @@
   "author": "Christian Schab <christian.schab@web.academy>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acady-io/template-tasks-processor.git"
+    "url": "https://github.com/acady-io/template-sf-worker.git"
   },
   "dependencies": {}
 }

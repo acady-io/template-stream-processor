@@ -1,7 +1,7 @@
-import taskProcessor from "./tasks";
+import streamProcessor from "./streams";
 
 export async function handler(event) {
     const response = {};
-    await taskProcessor.process(event);
+    await streamProcessor.process(event);
     return response;
 }
