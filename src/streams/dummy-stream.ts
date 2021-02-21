@@ -1,11 +1,9 @@
-import Stream from "../stream-processor/stream";
+import {Stream} from "acady-stream-processor";
 
 export default class DummyStream extends Stream {
 
-
-    work(streamData: any) {
-        console.log(streamData);
+    async processRecords(): Promise<void> {
+        console.log(this.records);
     }
-
 
 }

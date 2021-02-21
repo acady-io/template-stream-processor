@@ -1,6 +1,6 @@
 {
   "name": "template-stream-processor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Template for Stream Processors",
   "main": "./build/index.js",
   "files": [
@@ -19,7 +19,9 @@
   "author": "Christian Schab <christian.schab@web.academy>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/acady-io/template-sf-worker.git"
+    "url": "https://github.com/acady-io/template-stream-processor.git"
   },
-  "dependencies": {}
+  "dependencies": {
+    "acady-stream-processor": "^1.0.1"
+  }
 }
